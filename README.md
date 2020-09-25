@@ -1,5 +1,5 @@
 # Avaamo
-To find the top ten words from atext and use https://dictionary.yandex.net/api/v1/dicservice.json/lookup to get the word details
+To find the top ten words from a text file and use https://dictionary.yandex.net/api/v1/dicservice.json/lookup to get the word details
 
 ## avaamo.js
 ### processFile
