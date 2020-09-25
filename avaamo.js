@@ -150,6 +150,6 @@ function processData(finalWordsArray, lang){
 };
 
 module.exports={
-    processData,
-    processFile
+    processFile,
+    processData
 }
