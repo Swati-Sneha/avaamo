@@ -32,4 +32,14 @@ $ npm install
 $ npm start
 ```
 
+## SAMPLE OUTPUT:
 
+Lang in processData passed as 'en' (english):
+
+
+![lang='en'](https://github.com/Swati-Sneha/avaamo/blob/main/screenshots/en.png)
+
+Lang in processData passed as 'it' (italian):
+
+
+![lang='it'](https://github.com/Swati-Sneha/avaamo/blob/main/screenshots/it.png)
