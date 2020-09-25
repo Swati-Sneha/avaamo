@@ -24,7 +24,7 @@ input parameter: word dictionary with their occurence (received from processFile
 
  
 ## app.js
- - Calls processFile function and send its result to processData
+ - Calls processFile function and send its result to processData, along with the second parameter of language (This language defines the language in which we expext synonymns of the word). Set as 'en' by default.
  - The result from process data is resolved using Promise.all and an array of the word data from processData is printed
  
 ### Run the script
