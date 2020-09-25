@@ -15,6 +15,8 @@ input parameter: path of file
 ```sh
 input parameter: word dictionary with their occurence (received from processFile), language code (language of synonymns)
 ```
+> For more details on lang parameter refer [Yandex Doc](https://yandex.com/dev/dictionary/doc/dg/reference/getLangs-docpage/)
+
  - Takes each word and looks it up in https://dictionary.yandex.net/api/v1/dicservice.json/lookup asynchronously
  - Processes the API result to get word's synonymns in an array and it's part of Speech
  - Synonymns are captured only if it's part of speech matches with the original word
