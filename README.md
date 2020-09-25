@@ -7,8 +7,8 @@ To find the top ten words from atext and use https://dictionary.yandex.net/api/v
 input parameter: path of file
 ```
  - Reads the file asynchronously
- - Counts each word's (ignoring case) occurence
- - Maps the word and their occurence in JSON format
+ - Counts each word's occurence (ignoring case)
+ - Maps the word and their occurence to JSON object
  - Returns promise of top 10 maps
  
 ### processData
@@ -18,9 +18,9 @@ input parameter: word dictionary with their occurence (received from processFile
 > For more details on **lang** parameter, refer [Yandex Doc](https://yandex.com/dev/dictionary/doc/dg/reference/getLangs-docpage/)
 
  - Takes each word and looks it up in https://dictionary.yandex.net/api/v1/dicservice.json/lookup asynchronously
- - Processes the API result to get word's synonymns in an array and it's part of Speech
+ - Processes the API result to get word's synonymns (in an array) and it's Part of Speech
  - Synonymns are captured only if it's part of speech matches with the original word
- - All the results for 10 words, including the word, it's occurence,it's part of speech and it's captured synonymns are returned as array of promises
+ - The data for 10 words, including the word, it's occurence,it's part of speech and it's captured synonymns are returned as array of promises
 
  
 ## app.js
